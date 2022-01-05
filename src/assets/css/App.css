@@ -1,0 +1,183 @@
+body {
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  -webkit-font-smoothing:antialiased;
+  -moz-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:antialiased;
+}
+
+#header {
+  height: 250px;
+  width: 100%;
+  background-color: aliceblue;
+  border-bottom: 2px solid #ccc;
+  border-top: 3px solid #76f792;
+}
+
+.center {
+  width:85%;
+  margin: 0px auto;
+
+}
+
+.clearfix {
+  clear: both;
+  float: none;
+}
+#logo {
+  width: 20%;
+  font-size: 20px;
+  float: left;
+  margin-top: 40px;
+}
+
+#logo img {
+  display:block;
+  float: left;
+  height: 55px;
+  margin-top: -9px;
+  margin-right: -10px;
+  margin-left: -60px;
+  animation: girar infinite 30s linear;
+}
+
+@keyframes girar {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+  
+}
+
+#brand {
+  display: block;
+  margin-left: 20px;
+  float: left;
+
+}
+
+#menu {
+  width: 15%;
+  float: right;
+  font-size: 15px;
+
+}
+
+#menu ul{
+  line-height: 25px;
+  width: 15%;
+  float: right;
+}
+
+#menu ul li{
+  display: inline-block;
+  justify-content:center; 
+  align-items: center;
+}
+
+#menu a:hover{
+  color: rgb(119, 240, 240);
+}
+
+.active{
+  border-bottom: 2px solid #585af7;
+}
+
+#slider{
+  background: rgb(92, 109, 103);
+  width: 100%;
+  height: 180px;
+  color: white;
+  text-shadow: 0px 0px 5px rgb(140, 239, 247);
+}
+
+#slider h1{
+  margin-top: 0.2px;
+  padding: 0px;
+  padding-top: 5px ;
+  text-align: center;
+}
+
+.btn-white{
+  display: block;
+  background: white;
+  color: rgb(168, 166, 162);
+  padding: 10px ;
+  width: 100px;
+  height: 25px;
+  margin: 0px auto;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-shadow: 0px 0px 5px #ccc;
+  margin-top: 40px;
+  border-radius: 4px;
+  transition: 300ms all;
+}
+
+.btn-white:hover{
+  display: block;
+  background: white;
+}
+
+#content {
+  width: 72%;
+  float: left;
+  min-height: 350px;
+  margin-right: 20px;
+}
+
+#sidebar{
+  width: 25%;
+  float: right;
+}
+
+.sidebar-item{
+  background: lightcyan;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.sidebar-item h3{
+  text-transform: uppercase;
+  font-size: 17px;
+  margin: 0px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 3px solid #ccc;
+}
+
+.mid-form label{
+  width: 50%;
+  margin: 0px auto;
+}
+
+.mid-form label{
+  display: block;
+  float: left;
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 17px;
+}
+
+input[type="text"]:focus{
+  box-shadow: 0px 0px 5px #ccc inset;
+}
+
+
+#footer{
+  background: #f7f7f7;
+  width: 100%;
+  height: 70px;
+  line-height: 65px;
+  color: #444;
+}
+
+#footer p {
+  margin: 0px;
+  padding: 0px;
+}
